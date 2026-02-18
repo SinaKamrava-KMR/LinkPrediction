@@ -1,0 +1,11 @@
+{
+  "rgat_checkpoint": "D:/Shiraz University/HomeWorks/Ostad Moosavi/LinkPrediction/output/models/rgat.pt",
+  "dim": 32,
+  "heads": 2,
+  "num_bases": 8,
+  "topk": 20,
+  "generated_files": {
+    "figure_attention_by_relation": "D:/Shiraz University/HomeWorks/Ostad Moosavi/LinkPrediction/output/figures/attention_by_relation.png",
+    "csv_attention_by_relation": "D:/Shiraz University/HomeWorks/Ostad Moosavi/LinkPrediction/output/metrics/attention_by_relation.csv"
+  }
+}

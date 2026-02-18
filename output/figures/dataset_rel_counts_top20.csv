@@ -1,0 +1,21 @@
+relation,count
+DRUGBANK::ddi-interactor-in::Compound:Compoun...,20939
+Hetionet::GpBP::Gene:Biological Process,8672
+Hetionet::AeG::Anatomy:Gene,8177
+STRING::REACTION::Gene:Gene,6292
+STRING::CATALYSIS::Gene:Gene,5441
+STRING::BINDING::Gene:Gene,5027
+STRING::OTHER::Gene:Gene,4949
+Hetionet::Gr>G::Gene:Gene,4275
+Hetionet::GiG::Gene:Gene,2502
+Hetionet::CcSE::Compound:Side Effect,2379
+INTACT::PHYSICAL ASSOCIATION::Gene:Gene,2235
+INTACT::ASSOCIATION::Gene:Gene,1982
+Hetionet::AdG::Anatomy:Gene,1830
+Hetionet::AuG::Anatomy:Gene,1764
+Hetionet::GpMF::Gene:Molecular Function,1755
+Hetionet::GpPW::Gene:Pathway,1563
+STRING::ACTIVATION::Gene:Gene,1517
+Hetionet::GpCC::Gene:Cellular Component,1401
+Hetionet::GcG::Gene:Gene,1223
+bioarx::HumGenHumGen:Gene:Gene,1169

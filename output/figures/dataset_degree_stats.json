@@ -1,0 +1,9 @@
+{
+  "num_nodes": 37614,
+  "num_edges": 118308,
+  "deg_min": 1,
+  "deg_max": 373,
+  "deg_mean": 6.2906365394592285,
+  "deg_median": 2.0,
+  "deg_p95": 24.0
+}

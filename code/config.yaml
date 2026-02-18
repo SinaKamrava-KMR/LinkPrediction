@@ -1,0 +1,44 @@
+seed: 42
+
+data:
+  raw_edges_path: "data/raw/drkg_subgraph_120k.tsv"
+  processed_dir: "data/processed"
+
+output:
+  dir: "output"
+
+preprocess:
+  max_edges: 2000000
+  relations_keep: null
+  entity_types_keep: null
+task:
+  target_relation_substrings:
+    - "treats"
+splits:
+  train_ratio: 0.8
+  val_ratio: 0.1
+  use_type_filter: true
+  head_type: "Compound"
+  tail_type: "Disease"
+  num_negs_per_pos_eval: 50
+
+train:
+  use_cuda: true
+  lr: 0.001
+  epochs: 100
+  batch_size: 512
+  num_negs_per_pos_train: 1
+
+model:
+  dim: 128
+  dropout: 0.2
+  mlp_hidden: 128
+
+  gat_heads: 4
+  rgat_heads: 4
+  rgcn_num_bases: 30
+
+attention:
+  topk_relations_plot: 20
+  num_cases: 3
+  k_hops: 2
