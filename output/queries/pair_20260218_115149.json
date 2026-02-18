@@ -1,0 +1,45 @@
+{
+  "drug": {
+    "query": "Compound::DB01234",
+    "id": 3295,
+    "entity": "Compound::DB01234",
+    "candidates": [
+      "Compound::DB01234"
+    ]
+  },
+  "disease": {
+    "query": "Disease::MESH:D014774",
+    "id": 31631,
+    "entity": "Disease::MESH:D017674",
+    "candidates": [
+      "Disease::MESH:D017674",
+      "Disease::MESH:D015477",
+      "Disease::MESH:D014777",
+      "Disease::MESH:D014717",
+      "Disease::MESH:D014474",
+      "Disease::MESH:D012774",
+      "Disease::MESH:D001477",
+      "Disease::MESH:D052177",
+      "Disease::MESH:D051437",
+      "Disease::MESH:D045743"
+    ]
+  },
+  "scores": [
+    {
+      "model": "gat",
+      "logit": -3.3387808799743652,
+      "prob": 0.03426447883248329
+    },
+    {
+      "model": "rgcn",
+      "logit": -18.566848754882812,
+      "prob": 8.640125059855563e-09
+    },
+    {
+      "model": "rgat",
+      "logit": -7.606810569763184,
+      "prob": 0.0004968077410012484
+    }
+  ],
+  "max_hops": 3
+}

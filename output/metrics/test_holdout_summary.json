@@ -1,0 +1,52 @@
+{
+  "source_path": "data\\raw\\drkg.tsv",
+  "train_subgraph_path": "data\\raw\\drkg_subgraph_120k.tsv",
+  "test_path": "data\\raw\\drkg_test_holdout_20k.tsv",
+  "test_edges": 19592,
+  "require_entities_in_train": true,
+  "require_relations_in_train": true,
+  "num_relations_covered": 95,
+  "num_relations_total_eligible": 95,
+  "top_relations_in_test": [
+    [
+      "DRUGBANK::ddi-interactor-in::Compound:Compound",
+      2780
+    ],
+    [
+      "Hetionet::AeG::Anatomy:Gene",
+      1058
+    ],
+    [
+      "Hetionet::GpBP::Gene:Biological Process",
+      956
+    ],
+    [
+      "STRING::REACTION::Gene:Gene",
+      880
+    ],
+    [
+      "STRING::CATALYSIS::Gene:Gene",
+      769
+    ],
+    [
+      "STRING::BINDING::Gene:Gene",
+      710
+    ],
+    [
+      "STRING::OTHER::Gene:Gene",
+      659
+    ],
+    [
+      "Hetionet::Gr>G::Gene:Gene",
+      609
+    ],
+    [
+      "Hetionet::GiG::Gene:Gene",
+      378
+    ],
+    [
+      "INTACT::PHYSICAL ASSOCIATION::Gene:Gene",
+      334
+    ]
+  ]
+}
