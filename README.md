@@ -11,13 +11,13 @@ attention-based analysis, figure generation, query-time inference/recommendation
 ```
 project_root/
 ├─ code/                         # reusable python modules (helpers, models, eval utilities)
-│  └─ drkg/                       # lightweight package (optional but recommended)
+                     
 ├─ data/
 │  ├─ raw/                        # raw inputs (tsv, etc.)
 │  └─ processed/                  # processed tensors, mappings, splits (generated)
-├─ notebooks/                     # notebooks 01–10 (pipeline steps)
+├             
 ├─ output/
-│  ├─ checkpoints/                # trained model weights (generated)
+│  ├
 │  ├─ logs/                       # training logs (CSV) (generated)
 │  ├─ metrics/                    # metrics + attention summaries (CSV/JSON) (generated)
 │  ├─ figures/                    # plots for the report (generated)
